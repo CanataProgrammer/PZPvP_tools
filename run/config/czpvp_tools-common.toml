@@ -1,0 +1,54 @@
+#Whether to log the dirt block on common setup
+logDirtBlock = true
+#A magic number
+#Range: > 0
+magicNumber = 42
+#What you want the introduction message to be for the magic number
+magicNumberIntroduction = "The magic number is... "
+#A list of items to log on common setup.
+items = ["minecraft:iron_ingot"]
+
+[spawn]
+	#Spawn placement mode: RANDOM or TEAM
+	spawnMode = "RANDOM"
+	#Minimum distance (blocks) required between spawned players
+	#Range: 0.0 ~ 1.7976931348623157E308
+	minimumPlayerDistance = 10.0
+	#Minimum distance (blocks) required between spawned players on different teams
+	#Range: 0.0 ~ 1.7976931348623157E308
+	minimumEnemyDistance = 15.0
+	#Maximum number of attempts to find a safe spawn location
+	#Range: > 1
+	maxAttempts = 100
+	#Avoid spawning players in water
+	avoidWater = true
+	#Avoid spawning players in lava
+	avoidLava = true
+	#Avoid spawning players inside blocks
+	avoidBlocks = true
+	#Avoid spawning players in mid-air (require solid footing)
+	avoidAir = true
+
+[arena]
+	#Range: > -2147483648
+	minX = -500
+	#Range: > -2147483648
+	maxX = 500
+	#Range: > -2147483648
+	minY = 60
+	#Range: > -2147483648
+	maxY = 100
+	#Range: > -2147483648
+	minZ = -300
+	#Range: > -2147483648
+	maxZ = 300
+
+[killReward]
+	#Whether killing an enemy grants a reward item
+	enabled = true
+	#The item granted on a kill
+	item = "minecraft:iron_ingot"
+	#The amount of the item granted on a kill
+	#Range: 1 ~ 64
+	amount = 1
+
