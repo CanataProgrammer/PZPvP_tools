@@ -1,0 +1,8 @@
+.claude/
+.gradle/
+.idea/
+build/
+run/
+gradle/
+CLAUDE.md
+企画書.md

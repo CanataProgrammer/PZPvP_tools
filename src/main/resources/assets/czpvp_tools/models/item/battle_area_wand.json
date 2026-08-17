@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "czpvp_tools:item/battle_area_wand"
+  }
+}
