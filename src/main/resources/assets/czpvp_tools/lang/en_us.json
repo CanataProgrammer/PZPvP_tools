@@ -2,5 +2,6 @@
   "key.categories.czpvp_tools": "CZPvP Tools",
   "key.czpvp_tools.open_scoreboard": "Open Scoreboard",
   "key.czpvp_tools.open_team_gui": "Open Team Menu",
-  "item.czpvp_tools.battle_area_wand": "Battle Area Wand"
+  "item.czpvp_tools.battle_area_wand": "Battle Area Wand",
+  "item.czpvp_tools.class_helmet": "Stat Helmet"
 }
