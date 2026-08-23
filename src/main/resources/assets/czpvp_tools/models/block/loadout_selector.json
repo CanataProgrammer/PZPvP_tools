@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "czpvp_tools:block/loadout_selector"
+  }
+}
