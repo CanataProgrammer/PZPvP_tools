@@ -61,3 +61,10 @@ mandatory = true
 versionRange = "${minecraft_version_range}"
 ordering = "NONE"
 side = "BOTH"
+# Curios: optional. When present, loadout accessories are equipped into Curios slots.
+[[dependencies."${mod_id}"]]
+modId = "curios"
+mandatory = false
+versionRange = "[5.14,)"
+ordering = "AFTER"
+side = "BOTH"
