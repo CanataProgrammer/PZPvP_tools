@@ -4,5 +4,6 @@
   "key.czpvp_tools.open_team_gui": "チームメニューを開く",
   "item.czpvp_tools.battle_area_wand": "バトルエリアの杖",
   "item.czpvp_tools.class_helmet": "ステータスヘルメット",
-  "block.czpvp_tools.loadout_selector": "ロードアウト選択機"
+  "block.czpvp_tools.loadout_selector": "ロードアウト選択機",
+  "item.czpvp_tools.game_settings_gear": "設定ギア"
 }
