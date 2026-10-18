@@ -1,0 +1,21 @@
+{
+  "format": "czpvp-index",
+  "version": 1,
+  "updatedAt": "2026-10-18T14:04:53.968Z",
+  "tournaments": [
+    {
+      "id": "cup-20261018",
+      "name": "第1回CZPvP-ドミネーションの部",
+      "date": "2026-10-18",
+      "description": "ルール：ドミネーション・ロードアウト\nルール説明：陣地を取り合い、先に0ポイントに減らした方の勝利。\n\n参加チーム\nKuia：Kokekiko・Yurumi322・osusidaisuki\nAiuk：0331harruki・Tofu_Crab_6496・chara1005\n\n審判：Canata_Zer0",
+      "matchCount": 4,
+      "teamCount": 2,
+      "playerCount": 6,
+      "champion": {
+        "type": "team",
+        "name": "Aiuk",
+        "color": "#e5484d"
+      }
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Result Tools — CZPvP Results</title>
+  <meta name="description" content="Mod が出力した試合 CSV から大会の結果ファイルを作るツール">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Noto+Sans+JP:wght@400;500;700&family=Rajdhani:wght@500;600;700&display=swap">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap">
+      <a class="brand" href="./"><span><small>CZPVP // RESULTS</small><b>Tournament Board</b></span></a>
+      <nav class="nav">
+        <a href="./">01 Tournaments</a>
+        <a href="tools.html" class="active">02 Tools</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="page-head">
+      <div class="eyebrow">Result Tools</div>
+      <h1>結果ファイル作成</h1>
+      <p class="lead">Mod が出力した試合の CSV(ワールドフォルダの czpvp_results/)を読み込み、大会としてまとめた結果ファイルを作ります。
+CSV を読み込むだけで、保存せずにこの画面で結果を見ることもできます。データはブラウザの中だけで処理され、どこにも送信されません。</p>
+    </section>
+
+    <section class="panel">
+      <h2 class="section-title"><span class="badge">01</span>LOAD<span class="sub">CSV(新形式・旧形式)/ 大会ファイル(.json)</span></h2>
+      <label class="dropzone" id="drop">
+        <input type="file" id="file" multiple accept=".csv,.json,text/csv,application/json">
+        <b>DROP FILES HERE</b>
+        <span>ここに CSV をドラッグ&ドロップ(複数可)、またはクリックして選択</span>
+        <span class="muted">大会ファイル(.json)を入れると、その大会を編集できます。index.json を入れると、出力する一覧の元になります。</span>
+      </label>
+      <div class="toolbar mt">
+        <select id="published" aria-label="公開中の大会"><option value="">公開中の大会を編集する…</option></select>
+        <button class="btn ghost small" id="load-published" type="button">読み込む</button>
+        <button class="btn ghost small" id="clear" type="button" style="margin-left:auto">全部クリア</button>
+      </div>
+      <div id="log" class="mt"></div>
+    </section>
+
+    <section class="panel">
+      <h2 class="section-title"><span class="badge">02</span>TOURNAMENT</h2>
+      <div class="form-grid">
+        <div class="field">
+          <label for="t-name">大会名</label>
+          <input type="text" id="t-name" placeholder="例: 第1回 CZPvP 杯">
+        </div>
+        <div class="field">
+          <label for="t-id">ID(英数字・- _)</label>
+          <input type="text" id="t-id" placeholder="例: cz-cup-1" spellcheck="false">
+          <span class="hint">ファイル名と URL に使います。同じ ID で出力すると上書き更新になります。</span>
+        </div>
+        <div class="field">
+          <label for="t-date">開催日</label>
+          <input type="date" id="t-date">
+        </div>
+        <div class="field wide">
+          <label for="t-desc">説明(任意)</label>
+          <textarea id="t-desc" placeholder="ルール・参加チームなど"></textarea>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2 class="section-title"><span class="badge">03</span>MATCHES<span class="sub" id="match-count"></span></h2>
+      <div id="matches"></div>
+    </section>
+
+    <section class="panel">
+      <h2 class="section-title"><span class="badge">04</span>EXPORT</h2>
+      <div class="toolbar">
+        <button class="btn" id="dl-tournament" type="button">大会ファイルを保存</button>
+        <button class="btn ghost" id="dl-index" type="button">index.json を保存</button>
+      </div>
+      <div id="export-msg" class="mt"></div>
+      <ol class="steps">
+        <li>サイト用のブランチ <code>gh-pages</code> に切り替える(Mod のプログラムは <code>main</code>、サイトは <code>gh-pages</code>)</li>
+        <li><b>大会ファイル</b>(<code id="fname">&lt;ID&gt;.json</code>)を <code>data/tournaments/</code> に置く</li>
+        <li><b>index.json</b> で <code>data/index.json</code> を上書きする(大会一覧に載ります)</li>
+        <li>コミットして <code>gh-pages</code> に push すると、GitHub Pages に公開されます</li>
+      </ol>
+      <div class="mt" id="index-list"></div>
+    </section>
+
+    <section class="page-head">
+      <div class="eyebrow">Preview</div>
+      <h1 id="preview-title" style="font-size:28px">プレビュー</h1>
+      <p class="lead">公開ページと同じ表示です。</p>
+    </section>
+    <div id="preview"></div>
+  </main>
+
+  <footer><div class="wrap"><span>CZPvP_tools</span><span>Minecraft PvP Results</span></div></footer>
+
+  <script src="assets/core.js"></script>
+  <script src="assets/tools.js"></script>
+</body>
+</html>

@@ -1,0 +1,331 @@
+{
+  "format": "czpvp-tournament",
+  "version": 1,
+  "id": "cup-20261018",
+  "name": "第1回CZPvP-ドミネーションの部",
+  "date": "2026-10-18",
+  "description": "ルール：ドミネーション・ロードアウト\nルール説明：陣地を取り合い、先に0ポイントに減らした方の勝利。\n\n参加チーム\nKuia：Kokekiko・Yurumi322・osusidaisuki\nAiuk：0331harruki・Tofu_Crab_6496・chara1005\n\n審判：Canata_Zer0",
+  "updatedAt": "2026-10-18T14:04:51.623Z",
+  "matches": [
+    {
+      "id": "mmvdw8h2p1af91",
+      "label": "MATCH 01",
+      "fileName": "czpvp_2-1.csv",
+      "date": "2026-10-18T12:46:33.455Z",
+      "endDate": null,
+      "durationSec": null,
+      "mode": "",
+      "modeName": "",
+      "spawnMode": "TEAM",
+      "winner": "Kuia",
+      "draw": false,
+      "reason": "",
+      "teamValues": [],
+      "players": [
+        {
+          "team": "Kuia",
+          "name": "osusidaisuki0117",
+          "uuid": "",
+          "kill": 0,
+          "death": 2,
+          "damage": 26,
+          "mit": 234,
+          "score": -2
+        },
+        {
+          "team": "Kuia",
+          "name": "Yurumi322",
+          "uuid": "",
+          "kill": 1,
+          "death": 3,
+          "damage": 350,
+          "mit": 416,
+          "score": -2
+        },
+        {
+          "team": "Aiuk",
+          "name": "0331haruki",
+          "uuid": "",
+          "kill": 3,
+          "death": 3,
+          "damage": 300,
+          "mit": 445,
+          "score": 0
+        },
+        {
+          "team": "Kuia",
+          "name": "Kokekiko",
+          "uuid": "",
+          "kill": 4,
+          "death": 1,
+          "damage": 667,
+          "mit": 203,
+          "score": 3
+        },
+        {
+          "team": "Aiuk",
+          "name": "Tofu_Crab_6496",
+          "uuid": "",
+          "kill": 0,
+          "death": 0,
+          "damage": 144,
+          "mit": 59,
+          "score": 0
+        },
+        {
+          "team": "Aiuk",
+          "name": "chara1005",
+          "uuid": "",
+          "kill": 3,
+          "death": 2,
+          "damage": 408,
+          "mit": 540,
+          "score": 1
+        }
+      ],
+      "legacy": true,
+      "winnerGuessed": false,
+      "excluded": false
+    },
+    {
+      "id": "mmvdw8h2q2knpo",
+      "label": "MATCH 02",
+      "fileName": "czpvp_2-2.csv",
+      "date": "2026-10-18T12:56:41.127Z",
+      "endDate": null,
+      "durationSec": null,
+      "mode": "",
+      "modeName": "",
+      "spawnMode": "TEAM",
+      "winner": "Aiuk",
+      "draw": false,
+      "reason": "",
+      "teamValues": [],
+      "players": [
+        {
+          "team": "Kuia",
+          "name": "osusidaisuki0117",
+          "uuid": "",
+          "kill": 1,
+          "death": 4,
+          "damage": 89,
+          "mit": 446,
+          "score": -3
+        },
+        {
+          "team": "Kuia",
+          "name": "Yurumi322",
+          "uuid": "",
+          "kill": 4,
+          "death": 3,
+          "damage": 584,
+          "mit": 431,
+          "score": 1
+        },
+        {
+          "team": "Aiuk",
+          "name": "0331haruki",
+          "uuid": "",
+          "kill": 5,
+          "death": 1,
+          "damage": 855,
+          "mit": 345,
+          "score": 4
+        },
+        {
+          "team": "Kuia",
+          "name": "Kokekiko",
+          "uuid": "",
+          "kill": 1,
+          "death": 2,
+          "damage": 581,
+          "mit": 537,
+          "score": -1
+        },
+        {
+          "team": "Aiuk",
+          "name": "Tofu_Crab_6496",
+          "uuid": "",
+          "kill": 1,
+          "death": 3,
+          "damage": 117,
+          "mit": 331,
+          "score": -2
+        },
+        {
+          "team": "Aiuk",
+          "name": "chara1005",
+          "uuid": "",
+          "kill": 2,
+          "death": 3,
+          "damage": 442,
+          "mit": 577,
+          "score": -1
+        }
+      ],
+      "legacy": true,
+      "winnerGuessed": true,
+      "excluded": false
+    },
+    {
+      "id": "mmvdw8h2r33ox8",
+      "label": "MATCH 03",
+      "fileName": "czpvp_2-3.csv",
+      "date": "2026-10-18T13:02:09.635Z",
+      "endDate": null,
+      "durationSec": null,
+      "mode": "",
+      "modeName": "",
+      "spawnMode": "TEAM",
+      "winner": "Aiuk",
+      "draw": false,
+      "reason": "",
+      "teamValues": [],
+      "players": [
+        {
+          "team": "Kuia",
+          "name": "osusidaisuki0117",
+          "uuid": "",
+          "kill": 0,
+          "death": 3,
+          "damage": 0,
+          "mit": 497,
+          "score": -3
+        },
+        {
+          "team": "Kuia",
+          "name": "Yurumi322",
+          "uuid": "",
+          "kill": 0,
+          "death": 2,
+          "damage": 81,
+          "mit": 287,
+          "score": -2
+        },
+        {
+          "team": "Aiuk",
+          "name": "0331haruki",
+          "uuid": "",
+          "kill": 3,
+          "death": 1,
+          "damage": 453,
+          "mit": 203,
+          "score": 2
+        },
+        {
+          "team": "Kuia",
+          "name": "Kokekiko",
+          "uuid": "",
+          "kill": 1,
+          "death": 4,
+          "damage": 226,
+          "mit": 348,
+          "score": -3
+        },
+        {
+          "team": "Aiuk",
+          "name": "Tofu_Crab_6496",
+          "uuid": "",
+          "kill": 1,
+          "death": 0,
+          "damage": 111,
+          "mit": 42,
+          "score": 1
+        },
+        {
+          "team": "Aiuk",
+          "name": "chara1005",
+          "uuid": "",
+          "kill": 3,
+          "death": 0,
+          "damage": 569,
+          "mit": 62,
+          "score": 3
+        }
+      ],
+      "legacy": true,
+      "winnerGuessed": true,
+      "excluded": false
+    },
+    {
+      "id": "mmvdw8h2s4jbbu",
+      "label": "MATCH OMAKE",
+      "fileName": "czpvp_omake.csv",
+      "date": "2026-10-18T13:17:19.819Z",
+      "endDate": null,
+      "durationSec": null,
+      "mode": "",
+      "modeName": "",
+      "spawnMode": "TEAM",
+      "winner": "",
+      "draw": true,
+      "reason": "",
+      "teamValues": [],
+      "players": [
+        {
+          "team": "Kuia",
+          "name": "osusidaisuki0117",
+          "uuid": "",
+          "kill": 1,
+          "death": 5,
+          "damage": 214,
+          "mit": 707,
+          "score": -4
+        },
+        {
+          "team": "Kuia",
+          "name": "Yurumi322",
+          "uuid": "",
+          "kill": 2,
+          "death": 5,
+          "damage": 631,
+          "mit": 923,
+          "score": -3
+        },
+        {
+          "team": "Aiuk",
+          "name": "0331haruki",
+          "uuid": "",
+          "kill": 9,
+          "death": 7,
+          "damage": 1505,
+          "mit": 1163,
+          "score": 2
+        },
+        {
+          "team": "Kuia",
+          "name": "Kokekiko",
+          "uuid": "",
+          "kill": 9,
+          "death": 6,
+          "damage": 1767,
+          "mit": 1054,
+          "score": 3
+        },
+        {
+          "team": "Aiuk",
+          "name": "Tofu_Crab_6496",
+          "uuid": "",
+          "kill": 4,
+          "death": 6,
+          "damage": 744,
+          "mit": 885,
+          "score": -2
+        },
+        {
+          "team": "Aiuk",
+          "name": "chara1005",
+          "uuid": "",
+          "kill": 8,
+          "death": 4,
+          "damage": 732,
+          "mit": 860,
+          "score": 4
+        }
+      ],
+      "legacy": true,
+      "winnerGuessed": false,
+      "excluded": false
+    }
+  ]
+}
